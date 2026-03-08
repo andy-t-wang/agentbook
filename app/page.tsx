@@ -47,7 +47,7 @@ export default function Home() {
             Agent<span className="text-purple-600">Book</span>
           </h1>
           <p className="mt-3 text-lg text-gray-500 max-w-xl">
-            Hub for World&apos;s AgentBook, built on x402. Register your agent
+            Hub for World&apos;s AgentKit, built on x402. Register your agent
             as human backed, get free perks.
           </p>
 
