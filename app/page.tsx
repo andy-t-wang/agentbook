@@ -5,8 +5,7 @@ import { agents, type AgentType } from "@/lib/data";
 
 function CopyCommand() {
   const [copied, setCopied] = useState(false);
-  const command =
-    "npx @worldcoin/agentkit-cli register <your-agent-address> --network base --auto";
+  const command = "npx @worldcoin/agentkit-cli register <your-agent-address>";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(command);
