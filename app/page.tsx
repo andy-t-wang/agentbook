@@ -101,8 +101,15 @@ export default function Home() {
                   key={agent.name}
                   className="border-b border-gray-100 hover:bg-gray-50 transition-colors"
                 >
-                  <td className="px-4 py-3 font-medium text-gray-900">
-                    {agent.name}
+                  <td className="px-4 py-3 font-medium">
+                    <a
+                      href={agent.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-600 hover:text-purple-800 hover:underline"
+                    >
+                      {agent.name}
+                    </a>
                   </td>
                   <td className="px-4 py-3 text-gray-500">{agent.category}</td>
                   <td className="px-4 py-3">
