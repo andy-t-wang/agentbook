@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Hero */}
-      <header className="border-b border-gray-100 bg-gradient-to-b from-gray-50 to-white">
+      <header className="bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-5xl mx-auto px-4 py-16 sm:py-20">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">
             Agent<span className="text-purple-600">Book</span>
@@ -53,7 +53,6 @@ export default function Home() {
 
           <div className="mt-6 flex flex-wrap gap-3">
             <button
-              onClick={() => setShowRegister((v) => !v)}
               className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium transition-colors cursor-pointer"
             >
               Register my agent
