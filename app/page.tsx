@@ -36,7 +36,6 @@ const typeBadgeColors: Record<AgentType, string> = {
 };
 
 export default function Home() {
-  const [showRegister, setShowRegister] = useState(true);
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -52,11 +51,6 @@ export default function Home() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
-            <button
-              className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium transition-colors cursor-pointer"
-            >
-              Register my agent
-            </button>
             <a
               href="https://docs.world.org/agents/agent-kit"
               target="_blank"
@@ -67,14 +61,12 @@ export default function Home() {
             </a>
           </div>
 
-          {showRegister && (
-            <div className="mt-4">
-              <p className="text-sm text-gray-400 mb-2">
-                Register with a single command:
-              </p>
-              <CopyCommand />
-            </div>
-          )}
+          <div className="mt-4">
+            <p className="text-sm text-gray-400 mb-2">
+              Register with a single command:
+            </p>
+            <CopyCommand />
+          </div>
         </div>
       </header>
 
