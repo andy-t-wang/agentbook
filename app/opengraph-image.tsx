@@ -15,33 +15,31 @@ export default function OGImage() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "linear-gradient(135deg, #f8f7ff 0%, #ffffff 50%, #f3f0ff 100%)",
+          background: "#ffffff",
           fontFamily: "sans-serif",
         }}
       >
         <div
           style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "4px",
             fontSize: 72,
             fontWeight: 800,
             letterSpacing: "-2px",
+            color: "#000000",
           }}
         >
-          <span style={{ color: "#111" }}>Agent</span>
-          <span style={{ color: "#7c3aed" }}>Book</span>
+          AgentBook
         </div>
         <div
           style={{
             fontSize: 28,
-            color: "#6b7280",
+            color: "#6e6e80",
             marginTop: 20,
             lineHeight: 1.4,
             maxWidth: 700,
           }}
         >
-          Hub for World&apos;s AgentBook, built on x402. Register your agent as human backed, get free perks.
+          Hub for World&apos;s AgentKit, built on x402. Register your agent as
+          human backed, get free perks.
         </div>
         <div
           style={{
@@ -49,16 +47,16 @@ export default function OGImage() {
             alignItems: "center",
             gap: "12px",
             marginTop: 48,
-            background: "#f9fafb",
-            border: "2px solid #e5e7eb",
-            borderRadius: 12,
+            background: "#f7f7f8",
+            border: "2px solid #e5e5e5",
+            borderRadius: 8,
             padding: "16px 24px",
             fontSize: 20,
             maxWidth: 800,
           }}
         >
-          <span style={{ color: "#7c3aed", fontWeight: 600 }}>$</span>
-          <span style={{ color: "#4b5563", fontFamily: "monospace" }}>
+          <span style={{ color: "#000000", fontWeight: 700 }}>$</span>
+          <span style={{ color: "#353740", fontFamily: "monospace" }}>
             npx @worldcoin/agentkit-cli register
           </span>
         </div>
