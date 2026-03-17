@@ -92,14 +92,18 @@ export default function Home() {
                   className="border-b border-gray-100 hover:bg-gray-50 transition-colors"
                 >
                   <td className="px-4 py-3 font-medium">
-                    <a
-                      href={agent.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-purple-600 hover:text-purple-800 hover:underline"
-                    >
-                      {agent.name}
-                    </a>
+                    {agent.url ? (
+                      <a
+                        href={agent.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-purple-600 hover:text-purple-800 hover:underline"
+                      >
+                        {agent.name}
+                      </a>
+                    ) : (
+                      <span className="text-gray-900">{agent.name}</span>
+                    )}
                   </td>
                   <td className="px-4 py-3 text-gray-500">{agent.category}</td>
                   <td className="px-4 py-3">

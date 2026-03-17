@@ -5,7 +5,7 @@ export type Agent = {
   category: string;
   type: AgentType;
   description: string;
-  url: string;
+  url?: string;
 };
 
 export const agents: Agent[] = [
@@ -15,6 +15,28 @@ export const agents: Agent[] = [
     type: "Free Trial",
     description: "AI-powered video generation on World Chain",
     url: "https://x402-worldchain.vercel.app/",
+  },
+  {
+    name: "InstaClaw",
+    category: "AI",
+    type: "Free Trial",
+    description:
+      "Managed hosting for Claude-powered AI agents on dedicated VMs",
+    url: "https://instaclaw.io/",
+  },
+  {
+    name: "Newsworthy",
+    category: "Crypto",
+    type: "Free",
+    description:
+      "Token-curated news feed for crypto and AI news via staked bonds",
+    url: "https://newsworthy-app.vercel.app/",
+  },
+  {
+    name: "Code Canvas",
+    category: "AI",
+    type: "Free Trial",
+    description: "npx @takisvc/code-canvas setup",
   },
 ];
 
