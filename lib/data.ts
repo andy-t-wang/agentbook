@@ -44,7 +44,7 @@ export const agents: Agent[] = [
     type: "Free Trial",
     description:
       "32 crypto intelligence APIs: ML signals, regime detection, orderbook, whale tracking, DeFi yields. 3 free calls per endpoint.",
-    url: "https://api.carbon-cashmere.de",
+    url: "https://api.carbon-cashmere.de/.well-known/x402.json",
   },
 ];
 
