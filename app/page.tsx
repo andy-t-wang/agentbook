@@ -40,7 +40,7 @@ export default function Home() {
     <div className="min-h-screen bg-white text-black">
       {/* Nav */}
       <nav className="border-b border-[#e5e5e5]">
-        <div className="max-w-[1100px] mx-auto px-6 h-14 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <span className="text-[17px] font-bold tracking-tight">
               AgentBook
@@ -62,7 +62,7 @@ export default function Home() {
 
       {/* Hero */}
       <header className="border-b border-[#e5e5e5]">
-        <div className="max-w-[1100px] mx-auto px-6 pt-20 pb-16">
+        <div className="max-w-6xl mx-auto px-6 pt-20 pb-16">
           <p className="text-sm text-[#6e6e80] mb-4">AgentKit Registry</p>
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight leading-[1.1] max-w-2xl">
             AgentBook
@@ -82,7 +82,7 @@ export default function Home() {
       </header>
 
       {/* Table */}
-      <main className="max-w-[1100px] mx-auto px-6 py-12">
+      <main className="max-w-6xl mx-auto px-6 py-12">
         <div className="overflow-x-auto">
           <table className="w-full text-sm text-left">
             <thead>
