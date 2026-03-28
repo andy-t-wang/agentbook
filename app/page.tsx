@@ -3,9 +3,8 @@
 import { useState } from "react";
 import { agents, type AgentType } from "@/lib/data";
 
-function CopyCommand() {
+function CopyCommand({ command }: { command: string }) {
   const [copied, setCopied] = useState(false);
-  const command = "npx @worldcoin/agentkit-cli register <your-agent-address>";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(command);
@@ -72,11 +71,19 @@ export default function Home() {
             human backed, get free perks.
           </p>
 
-          <div className="mt-8">
-            <p className="text-sm text-[#6e6e80] mb-2">
-              Register with a single command:
-            </p>
-            <CopyCommand />
+          <div className="mt-8 space-y-4">
+            <div>
+              <p className="text-sm text-[#6e6e80] mb-2">
+                Register with a single command:
+              </p>
+              <CopyCommand command="npx @worldcoin/agentkit-cli register <your-agent-address>" />
+            </div>
+            <div>
+              <p className="text-sm text-[#6e6e80] mb-2">
+                Teach your agent to use AgentKit:
+              </p>
+              <CopyCommand command="npx skills add worldcoin/agentkit agentkit-x402" />
+            </div>
           </div>
         </div>
       </header>
