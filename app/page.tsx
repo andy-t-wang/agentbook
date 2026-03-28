@@ -120,7 +120,7 @@ export default function Home() {
                   </td>
                   <td className="px-4 py-3.5">
                     <span
-                      className={`inline-block px-2.5 py-0.5 rounded text-xs font-medium border ${typeBadgeColors[agent.type]}`}
+                      className={`inline-block px-2.5 py-0.5 rounded text-xs font-medium border whitespace-nowrap ${typeBadgeColors[agent.type]}`}
                     >
                       {agent.type}
                     </span>
