@@ -46,6 +46,13 @@ export const agents: Agent[] = [
       "32 crypto intelligence APIs: ML signals, regime detection, orderbook, whale tracking, DeFi yields. 3 free calls per endpoint.",
     url: "https://api.carbon-cashmere.de/.well-known/x402.json",
   },
+  {
+  name: "Prove by Provenance",
+  category: "AI",
+  type: "Free",
+  description: "AI-powered fact-checking platform. Verify any claim or URL with multi-source evidence, confidence scores, and source citations.",
+  url: "https://app.provenance.technology/factcheck",
+},
 ];
 
 export const categories = [
