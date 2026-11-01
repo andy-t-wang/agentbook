@@ -46,6 +46,14 @@ export const agents: Agent[] = [
       "32 crypto intelligence APIs: ML signals, regime detection, orderbook, whale tracking, DeFi yields. 3 free calls per endpoint.",
     url: "https://api.carbon-cashmere.de/.well-known/x402.json",
   },
+  {
+    name: "Fiador",
+    category: "Developer Tools",
+    type: "Free",
+    description:
+      "Open-source attestation and verification tools that show whether a unique human stands behind an agent wallet.",
+    url: "https://fiador.org",
+  },
 ];
 
 export const categories = [
