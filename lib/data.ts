@@ -46,6 +46,14 @@ export const agents: Agent[] = [
       "32 crypto intelligence APIs: ML signals, regime detection, orderbook, whale tracking, DeFi yields. 3 free calls per endpoint.",
     url: "https://api.carbon-cashmere.de/.well-known/x402.json",
   },
+  {
+    name: "Operator Verified",
+    category: "Agent Identity",
+    type: "Free",
+    description:
+      "A public verification surface for AI-agent operators backed by a unique, verified human.",
+    url: "https://operatorverified.org",
+  },
 ];
 
 export const categories = [
