@@ -46,6 +46,14 @@ export const agents: Agent[] = [
       "32 crypto intelligence APIs: ML signals, regime detection, orderbook, whale tracking, DeFi yields. 3 free calls per endpoint.",
     url: "https://api.carbon-cashmere.de/.well-known/x402.json",
   },
+  {
+    name: "Signet",
+    category: "Content Provenance",
+    type: "Free",
+    description:
+      "Provenance seals for agent-written content, signed by an agent wallet and anchored on World Chain.",
+    url: "https://operatorverified.org/seal/",
+  },
 ];
 
 export const categories = [
